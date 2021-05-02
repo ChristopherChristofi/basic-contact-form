@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./main.css" rel="stylesheet" />
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-form">
+            <!--
+                Replace 'random-string' with your email confirmation identifier
+            -->
+            <form action="https://formsubmit.co/761ba84acf2ec2f041d5aefafa779263" method="POST">
+                <div>
+                    <h1>Contact Form</h1>
+                </div>
+                <input type="hidden" name="_subject" value="New email from contact form.">
+                <div class="email-form">
+                    <label>Email:</label>
+                    <input type="email" name="email" placeholder="Provide your email here..." required>
+                </div>
+                <div class="message-form">
+                    <label>Message:</label>
+                    <input type="text" name="message" placeholder="Provide a message here.." required>
+                </div>
+                <div>
+                    <input type="submit" value="Send" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
