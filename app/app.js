@@ -18,11 +18,11 @@ async function run () {
         app.use(express.static("static"));
 
         app.get("/", (req, res) => {
-            res.sendFile("contact.html", { root: path.join(__dirname, '../pages/')});
+            res.sendFile("contact.html", { root: path.join(__dirname, '../static/')});
         });
 
         app.get("*", (req, res) => {
-            res.sendFile("404.html", { root: path.join(__dirname, '../pages/')});
+            res.sendFile("404.html", { root: path.join(__dirname, '../static/')});
         });
 
         app.listen(port, host, () => {
