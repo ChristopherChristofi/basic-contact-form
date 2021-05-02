@@ -1,4 +1,4 @@
-# basic-contact-form
+# simple-contact-form
 
 ## Description:
 
@@ -32,7 +32,7 @@ npm run start:dev
     .
     ├── node_modules
     ├── app
-    ├── pages
+    ├── static
     ├── main.js
     ├── LICENSE
     ├── package-lock.json
